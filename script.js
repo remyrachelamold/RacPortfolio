@@ -1,3 +1,21 @@
+// HAMBURGER MENU
+
+const menu = document.getElementById("menu");
+const openBtn = document.getElementById("menuOpen");
+const closeBtn = document.getElementById("menuClose");
+
+openBtn.onclick = () => {
+menu.classList.add("active");
+};
+
+closeBtn.onclick = () => {
+menu.classList.remove("active");
+};
+
+
+
+// TYPING EFFECT
+
 new Typed("#typing",{
 
 strings:[
@@ -12,6 +30,9 @@ loop:true
 
 });
 
+
+
+// SCROLL ANIMATIONS
 
 ScrollReveal().reveal('.reveal',{
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -8,183 +8,414 @@
 
 <title>Remy Rachel Portfolio</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 <link rel="stylesheet" href="style.css">
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
+
 <body>
 
-<nav>
 
-<h2 class="logo">Remy</h2>
+<!-- NAVBAR -->
 
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+<header class="navbar">
+
+<div class="logo">Portfolio</div>
+
+<button class="menu-btn" id="menuOpen">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</header>
+
+
+<!-- HAMBURGER MENU OVERLAY -->
+
+<div class="menu-overlay" id="menu">
+
+<div class="menu-header">
+
+<div class="menu-logo">Portfolio</div>
+
+<button class="close-btn" id="menuClose">
+<i class="fa-solid fa-xmark"></i>
+</button>
+
+</div>
+
+
+<nav class="menu-links">
+
+<a href="#about">About</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#connect">Contact</a>
+
+<button class="hire-btn">Hire Me</button>
 
 </nav>
 
+</div>
 
-<section id="home" class="card reveal hero">
 
-<h1>S P Remy Rachel Amold</h1>
 
-<h2><span id="typing"></span></h2>
+<!-- HERO SECTION -->
 
-<p class="role">Software Engineer</p>
+<section class="hero reveal">
+
+<div class="hero-content">
+
+<div class="availability-badge">
+✨ Available for opportunities
+</div>
+
+<h1>Hello! I'm</h1>
+
+<h1 class="name">S P Remy Rachel Amold</h1>
+
+<h2 class="gradient-title">
+<span id="typing"></span>
+</h2>
+
+<p1>
+AI & Full Stack Developer building intelligent web applications.
+</p1>
+
+<p2>
+Computer Science student skilled in Python, AI, and full-stack web development.
+Building innovative projects that create real impact.
+</p2>
+</div>
 
 </section>
 
 
-<section id="about" class="card reveal">
 
-<h2>About Me</h2>
+<!-- ABOUT -->
+
+<section id="about" class="about reveal">
+
+<h2>About</h2>
 
 <p>
 
-I’m a Computer Science student skilled in Python, AI, and full-stack web development.
+Computer Science student passionate about AI, modern web development
+and building impactful software solutions.
+
+</p>
+
+</section>
+
+
+
+<!-- MORE ABOUT ME -->
+
+<section class="more-about reveal">
+
+<div class="more-card">
+
+<p class="more-label">MORE ABOUT</p>
+
+<h1 class="more-title">Me</h1>
+
+<p class="more-text">
+I'm a Computer Science student skilled in Python, AI, and full-stack web development.
+</p>
+
+<p class="more-text">
 I focus on building innovative projects like AI-powered applications and web platforms,
 combining my technical knowledge with problem-solving to create real impact.
-
 </p>
 
-</section>
-
-
-<section id="skills" class="card reveal">
-
-<h2>Skills</h2>
-
-<div class="skills">
-
-<div class="skillbox">
-
-<h3>Backend</h3>
-
-<p>Node.js</p>
-<p>Express.js</p>
-<p>MongoDB</p>
-<p>REST API</p>
-
-</div>
-
-<div class="skillbox">
-
-<h3>Frontend</h3>
-
-<p>React.js</p>
-<p>TypeScript</p>
-
-</div>
-
-<div class="skillbox">
-
-<h3>Tools</h3>
-
-<p>GitHub</p>
-<p>Postman</p>
-<p>Docker</p>
-
-</div>
-
 </div>
 
 </section>
 
+<!-- MY JOURNEY SECTION -->
 
-<section id="projects" class="card reveal">
+<section class="journey reveal">
 
-<h2>Projects</h2>
+<div class="journey-container">
 
-<div class="project">
+<p class="journey-label">MY JOURNEY</p>
 
-<h3>AI-Powered E-Commerce Application</h3>
+<h2 class="journey-title">
+Building the <span>Future</span>
+</h2>
+
+<p class="journey-text">
+From AI-powered solutions to full-stack web applications, I bring technical expertise and creativity to every project. Passionate about leveraging modern technologies to solve real-world problems.
+</p>
+
+
+<div class="journey-grid">
+
+<!-- CARD 1 -->
+
+<div class="journey-card">
+
+<i class="fa-solid fa-code"></i>
+
+<h3>Full-Stack Developer</h3>
+
+</div>
+
+
+<!-- CARD 2 -->
+
+<div class="journey-card">
+
+<i class="fa-solid fa-sparkles"></i>
+
+<h3>AI Integration</h3>
+
+</div>
+
+
+<!-- CARD 3 -->
+
+<div class="journey-card">
+
+<i class="fa-solid fa-bookmark"></i>
+
+<h3>CS Student</h3>
+
+</div>
+
+
+<!-- CARD 4 -->
+
+<div class="journey-card">
+
+<i class="fa-solid fa-users"></i>
+
+<h3>Problem Solver</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS SECTION -->
+
+<section id="skills" class="skills reveal">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-container">
+
+
+<!-- FRONTEND -->
+
+<div class="skills-card">
+
+<h3><span class="dot"></span> Frontend</h3>
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>HTML</span>
+<span>90%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:90%"></div>
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>CSS</span>
+<span>85%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:85%"></div>
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>React</span>
+<span>80%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:80%"></div>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+<!-- BACKEND -->
+
+<div class="skills-card">
+
+<h3><span class="dot"></span> Backend</h3>
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>Node.js</span>
+<span>85%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:85%"></div>
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>Express.js</span>
+<span>80%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:80%"></div>
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+<div class="skill-info">
+<span>MongoDB</span>
+<span>75%</span>
+</div>
+
+<div class="bar">
+<div class="progress" style="width:75%"></div>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECT SECTION -->
+
+<section id="projects" class="projects reveal">
+
+<div class="project-card">
+
+<div class="project-header"></div>
+
+
+<div class="project-content">
+
+<h3>AI Powered E-commerce Application</h3>
 
 <p>
 
-Built an AI-powered E-Commerce web application with user authentication,
-product browsing, cart management, and an integrated intelligent chat assistant.
+Built an AI-powered e-commerce platform with authentication,
+product browsing, cart management and an intelligent chat assistant.
 
 </p>
 
-<p>
 
-Implemented a full-stack architecture with secure APIs,
-real-time responses, and backend containerization.
+<div class="tech-tags">
 
-</p>
+<span>MERN</span>
 
-<p class="tech">
+<span>React</span>
 
-Technologies: MERN Stack – React, Node.js, Express.js, Flowise AI Agent
+<span>Node.js</span>
 
-</p>
+<span>Flowise AI</span>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
 
-<section id="contact" class="card reveal">
 
-<h2>Contact</h2>
+<!-- CONNECT SECTION -->
 
-<p>Email: remyrachelamold@gmail.com</p>
-
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/remy-rachel-amold-876533264" target="_blank">
-remy-rachel-amold
-</a>
-</p>
-
-<p>WhatsApp: +91 9500764325</p>
-
-</section>
-
-<section class="card reveal connect">
+<section id="connect" class="connect reveal">
 
 <h2>Connect With Me</h2>
 
-<div class="social-buttons">
 
-<a href="https://github.com/" target="_blank" class="social-btn">
-<i class="fab fa-github"></i>
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="https://www.linkedin.com/in/remy-rachel-amold-876533264">
+<i class="fab fa-linkedin"></i>
 </a>
 
-<a href="https://www.linkedin.com/in/remy-rachel-amold-876533264" target="_blank" class="social-btn">
-<i class="fab fa-linkedin-in"></i>
-</a>
-
-<a href="https://wa.me/919500764325" target="_blank" class="social-btn">
+<a href="https://wa.me/919500764325">
 <i class="fab fa-whatsapp"></i>
 </a>
 
-<a href="mailto:remyrachelamold@gmail.com" class="social-btn">
-<i class="fas fa-envelope"></i>
+<a href="mailto:remyrachelamold@gmail.com">
+<i class="fa-solid fa-envelope"></i>
 </a>
 
 </div>
 
 </section>
 
-<footer>
 
-<p>© 2026 Remy Rachel Portfolio</p>
 
-</footer>
+<!-- JAVASCRIPT LIBRARIES -->
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
 
 <script src="script.js"></script>
 
-</body>
+<footer class="footer">
 
+<p>
+© 2024 S P Remy Rachel Amold. Crafted with ❤️ and code.
+</p>
+
+</footer>
+
+</body>
 </html>
