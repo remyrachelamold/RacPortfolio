@@ -12,6 +12,13 @@ closeBtn.onclick = () => {
 menu.classList.remove("active");
 };
 
+const menuLinks = document.querySelectorAll(".menu-links a");
+
+menuLinks.forEach(link => {
+link.addEventListener("click", () => {
+menu.classList.remove("active");
+});
+});
 
 
 // TYPING EFFECT
